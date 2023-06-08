@@ -1,0 +1,77 @@
+/* Universal Selector */
+
+body{
+    background-color: rgb(207, 106, 114);
+    height:100%
+
+}
+
+.container2 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h6 {
+    text-align: left;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: bottom 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+footer {
+    display: flex;
+   
+}
+
+.footer {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: bottom;
+    border-top: 2px solid black;
+    padding-top: 50px;
+    margin-top: 350px;
+    width: 100vw;
+}
+
+.footer-text {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vw;
+    padding: 0 40vw;
+    justify-content: center;
+}
+
+.footer-text p {
+    margin: auto;
+    font-size: 15px;
+}
+
+
+
+
+
+

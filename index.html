@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries WikiPedia</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"">
+    <link rel="stylesheet" href="./css/main.css">
+    
+<body>
+    <!--Main Header-->
+    <div class="container">
+        <div class="row" id="navbar">
+            <div class="col-4" id="main-title">Countries WikiPedia</div>
+            <div class="col-1 toplink"><a href="#">Countries</a></div>
+            <div class="col-1 toplink"><a href="#">Currencies</a></div>
+            <div class="col-1 toplink"><a href="#">Biography</a></div>
+            <div class="col-2"></div>
+
+        </div>
+        
+
+    </div>
+       <div class="container2">
+
+    <form id="countryForm">
+        <input type="text" id="countryInput" placeholder="Enter a country">
+        <button type="submit">Submit</button>
+      </form>
+
+      <script src="js/country.js" defer></script>
+
+      <div id="countryInfo" class="hidden">
+        <div id="countryFlag"></div>
+        <div id="countryCoatOfArms"></div>
+        <h2 id="countryName"></h2>
+        <h6>Name:</h6>
+        <p id="countryCapital"></p>
+        <h6>Currencies:</h6>
+        <ul id="countryCurrencies"></ul>
+        <h6>Languages:</h6>
+        <ul id="countryLanguages"></ul>
+      </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-text">
+                <li><a href="https://policies.google.com/terms?hl=en-US">Conditions of use</a></li>
+                <li><a href="https://policies.google.com/terms?hl=en-US">Privacy Policy</a></li>
+                <li><a href="https://www.google.com/intl/en_us/policies/terms/archive/20070416/">Help</a></li>
+                <p>&copy; 100bc-2023 Countries</p>
+            </div>
+        </div>
+    </footer>
+       
+ 
+</body>
+</html>
